@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Do not remove this test for UTF-8: if ??? doesn?t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>hexchat</id>
     <title>HexChat</title>
     <version>2.10.2</version>
     <authors>Berke Viktor</authors>
     <owners>lod</owners>
-    <summary>HexChat IRC client</summary>
-    <description>HexChat is an IRC client based on XChat, but unlike XChat its completely free for both Windows and Unix-like systems.</description>
+    <summary>HexChat is an IRC client based on XChat, but unlike XChat it’s completely free for both Windows and Unix-like systems.</summary>
+    <description>HexChat is a fork of XChat which is free for Linux and Windows. It was originally named XChat-WDK and was created as an alternative to the Shareware version of XChat for Windows, but changed its name because it went far beyond being a simple Windows only version of XChat and efforts to merge into XChat officially hit a dead-end</description>
     <projectUrl>https://hexchat.github.io/</projectUrl>
-    <tags>hexchat irc x-chat chat</tags>
+    <iconUrl>http://gravatar.com/avatar/5fa6d05f1d097d75b1ae446c5af3c28f.gif</iconUrl>
+    <tags>hexchat irc xchat xhhat-wdk chat</tags>
     <copyright>Copyright (C) 1998-2010 Peter Zelezny. Copyright (C) 2009-2015 Berke Viktor.</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!-- Important note about https://cdn.rawgit.com: Files are cached permanently after the first request. Use commit URLs when updating the icon. -->
-    <!--<iconUrl>http://cdn.rawgit.com/__CHOCO_PKG_MAINTAINER_REPO__/master/icons/hexchat.png</iconUrl>-->
     <dependencies>
       <dependency id="vcredist2013" version="12.0.0.20140222" />
     </dependencies>
-    <releaseNotes></releaseNotes>
+    <releaseNotes>https://hexchat.readthedocs.org/en/latest/changelog.html</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
