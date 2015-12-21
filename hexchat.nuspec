@@ -2,14 +2,18 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>hexchat</id>
-    <title>HexChat</title>
+    <title>HexChat IRC client</title>
     <version>2.10.2</version>
     <authors>Berke Viktor</authors>
     <owners>lod</owners>
     <summary>HexChat is an IRC client based on XChat, but unlike XChat it’s completely free for both Windows and Unix-like systems.</summary>
     <description>HexChat is a fork of XChat which is free for Linux and Windows. It was originally named XChat-WDK and was created as an alternative to the Shareware version of XChat for Windows, but changed its name because it went far beyond being a simple Windows only version of XChat and efforts to merge into XChat officially hit a dead-end</description>
     <projectUrl>https://hexchat.github.io/</projectUrl>
-    <iconUrl>http://gravatar.com/avatar/5fa6d05f1d097d75b1ae446c5af3c28f.gif</iconUrl>
+    <packageSourceUrl>https://github.com/hexchat/hexchat</packageSourceUrl>
+    <docsUrl>https://hexchat.readthedocs.org/en/latest/</docsUrl>
+    <bugTrackerUrl>https://github.com/hexchat/hexchat/issues</bugTrackerUrl>
+    <iconUrl>https://upload.wikimedia.org/wikipedia/commons/4/4e/Hexchat_Logo.svg</iconUrl>
+    <releaseNotes>https://hexchat.readthedocs.org/en/latest/changelog.html</releaseNotes>
     <tags>hexchat irc xchat xhhat-wdk chat</tags>
     <copyright>Copyright (C) 1998-2010 Peter Zelezny. Copyright (C) 2009-2015 Berke Viktor.</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
@@ -17,7 +21,6 @@
     <dependencies>
       <dependency id="vcredist2013" version="12.0.0.20140222" />
     </dependencies>
-    <releaseNotes>https://hexchat.readthedocs.org/en/latest/changelog.html</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
