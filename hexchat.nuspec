@@ -9,13 +9,14 @@
     <summary>HexChat is an IRC client based on XChat, but unlike XChat it’s completely free for both Windows and Unix-like systems.</summary>
     <description>HexChat is a fork of XChat which is free for Linux and Windows. It was originally named XChat-WDK and was created as an alternative to the Shareware version of XChat for Windows, but changed its name because it went far beyond being a simple Windows only version of XChat and efforts to merge into XChat officially hit a dead-end</description>
     <projectUrl>https://hexchat.github.io/</projectUrl>
-    <packageSourceUrl>https://github.com/hexchat/hexchat</packageSourceUrl>
+    <packageSourceUrl>https://github.com/horstderheld/chocolatey-hexchat/</packageSourceUrl>
+    <projectSourceUrl>https://github.com/hexchat/hexchat</projectSourceUrl>
     <docsUrl>https://hexchat.readthedocs.org/en/latest/</docsUrl>
     <bugTrackerUrl>https://github.com/hexchat/hexchat/issues</bugTrackerUrl>
     <iconUrl>https://upload.wikimedia.org/wikipedia/commons/4/4e/Hexchat_Logo.svg</iconUrl>
     <releaseNotes>https://hexchat.readthedocs.org/en/latest/changelog.html</releaseNotes>
     <tags>hexchat irc xchat xhhat-wdk chat</tags>
-    <copyright>Copyright (C) 1998-2010 Peter Zelezny. Copyright (C) 2009-2015 Berke Viktor.</copyright>
+    <copyright>Copyright (C) 1998-2010 Peter Zelezny. Copyright (C) 2009-2016 Berke Viktor.</copyright>
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
