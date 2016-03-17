@@ -20,7 +20,7 @@
     <licenseUrl>https://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <dependencies>
-      <dependency id="vcredist2015" version="14.0.23506.0" />
+      <dependency id="vcredist2015"/>
     </dependencies>
   </metadata>
   <files>
